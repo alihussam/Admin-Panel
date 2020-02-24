@@ -25,12 +25,13 @@ router.post('/login',function (req,res,next) {
             res.redirect('/admin/home')
         }
         else{
+            console
             res.render('login',{alert: ApiResponse.response, alertType: 'danger'})
         }
       })
       .catch((error)=>{
           console.log(error)
-        res.render('login',{alert: error,alertType: 'danger'})
+        res.render('login',{alert: error.response.data.body,alertType: 'danger'})
 
       })
 })

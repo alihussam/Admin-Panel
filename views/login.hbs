@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+    
+<!-- Mirrored from themesdesign.in/apaxy/layouts/vertical/auth-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Dec 2019 12:23:19 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Login | Admin </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesdesign" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+        <!-- Bootstrap Css -->
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="../assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body class="bg-primary bg-pattern">
+    {{#if alert}}
+        <div class="alert alert-{{alertType}}">{{alert}}</div>
+    {{/if}}
+
+        <div class="account-pages my-5 pt-5">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="card">
+                            <div class="card-body p-4">
+							 <div class="text-center mb-5">
+                            <a href="#" class="logo"><img src="../assets/images/adminlogin.png" alt="ImageNotFound" height="55" alt="logo"></a>
+								</div>
+                                <div class="p-2">
+                                    <h5 class="mb-5 text-center">Sign in to continue to Admin Panel</h5>
+                                    <form class="form-horizontal" action="#" method="POST">
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group mb-4">
+                                                    <label for="email">Username</label>
+                                                    <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email">
+                                                </div>
+                                                <div class="form-group mb-4">
+                                                    <label for="password">Password</label>
+                                                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
+                                                </div>
+
+                                                <div class="mt-4">
+                                                    <button class="btn btn-success btn-block waves-effect waves-light loginbutton" type="submit">Log In</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+        </div>
+        <!-- end Account pages -->
+
+        <!-- JAVASCRIPT -->
+        <script src="../assets/libs/jquery/jquery.min.js"></script>
+        <script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="../assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="../assets/libs/node-waves/waves.min.js"></script>
+
+        <script src="../assets/js/app.js"></script>
+
+    </body>
+
+<!-- Mirrored from themesdesign.in/apaxy/layouts/vertical/auth-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Dec 2019 12:23:19 GMT -->
+</html>
